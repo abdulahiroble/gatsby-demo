@@ -1,0 +1,228 @@
+/* Mobile Styles */
+@media (max-width: 700px) {
+  .myButton {
+    position: absolute;
+    left: -13%;
+    display: inline-block;
+  }
+
+  .myButton2 {
+    /*  position: absolute;
+    left: -18%;
+    margin-top: 11rem;
+    display: inline-block; */
+    margin-left: 5%;
+  }
+
+  .h1 {
+    margin-bottom: 2em;
+  }
+
+  .check-box {
+    margin-top: -8em;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -11em;
+  }
+
+  .succes-text {
+    margin-top: 10em;
+    margin-left: 1em;
+  }
+}
+
+.flexButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*   .check-box {
+  
+  } */
+
+/* .succes-text {
+  text-align: center;
+  margin-top: 1em;
+} */
+
+.display-banner {
+  background-image: url(../images/michael-browning-D0ov97Td-xM-unsplash.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-top: -20px;
+  height: 50vh;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.display-second-banner {
+  background-image: url(../images/lesly-juarez-1AhGNGKuhR0-unsplash.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-top: -20px;
+  height: 50vh;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.display-third-banner {
+  background-image: url(../images/jon-tyson-kpLEaeScdHY-unsplash.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-top: -20px;
+  height: 50vh;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.tand-implant {
+  background-image: url(../images/peter-kasprzyk-U1gvhqVQ2kQ-unsplash.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-top: 4em;
+  height: 50vh;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.rod-behandling {
+  background-image: url(../images/nhia-moua-jQYofLnS0TI-unsplash.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-top: 4em;
+  height: 50vh;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.tand-retning {
+  background-image: url(../images/hush-naidoo-9ROuHJ25XVc-unsplash.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-top: 4em;
+  height: 50vh;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.plast-fyldning {
+  background-image: url(../images/hike-shaw-Dqrlp6cMLkE-unsplash.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-top: 4em;
+  height: 50vh;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.dream-smile {
+  background-image: url(../images/smile.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-top: 4em;
+  height: 50vh;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.h1 {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.h1-second {
+  text-align: center;
+  padding-top: 2em;
+  color: #ffffff;
+}
+
+.h1-third {
+  text-align: center;
+  padding-top: 5em;
+  color: antiquewhite;
+}
+
+.myButton {
+  /*   width: 40%;
+  margin-left: 30%; */
+  /*   position: absolute;
+  left: 50%;
+  margin-left: -50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #44c767;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.myButton:hover {
+  background-color: #5cbf2a;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton2 {
+  /*   width: 40%;
+  margin-left: 30%; */
+  /*   position: absolute;
+  left: 50%;
+  margin-left: -50px; */
+  background-color: #44c767;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.myButton2:hover {
+  background-color: #5cbf2a;
+}
+.myButton2:active {
+  position: relative;
+  top: 1px;
+}

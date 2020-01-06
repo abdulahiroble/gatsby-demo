@@ -1,53 +1,60 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Link } from "gatsby"
 import Image from "../components/images.module.scss"
+import { Link } from "gatsby"
 import Index from "../components/index.module.scss"
 
-const index = () => {
+const sidsteTandeftersyn = () => {
   return (
     <Layout>
-      <div className={Image.displayBanner}>
-        <h1 className={Image.h1}>Tandeftersyn</h1>
+      <div className={Image.displaySecondBanner}>
+        <h1 className={Image.h1Second}>
+          Hvornår blev dine tænder sidst tjekket?
+        </h1>
         <Link to="/kontakt">
           <button className={Image.myButton} style={{ marginLeft: "37%" }}>
             BLIV KONTAKTET
           </button>
         </Link>
       </div>
+
       <br />
 
       <p className={Index.p}>
-        Regelmæssige tandeftersyn har flere fordele i følge{" "}
-        <a
-          target="_blank"
-          href="https://www.tandlaegeforeningen.dk/om-tandlaegeforeningen/det-mener-tf/maerkesager/regelmaessig-tandpleje/"
-          style={{ textDecoration: "none" }}
-        >
-          Tandlægeforeningen.
-        </a>{" "}
+        For at undgå huller i tænderne, tandkødsbetændelse samt dårlig ånde skal
+        tænder, tandkød og tunge holdes rene hver dag.{" "}
       </p>
 
       <p>
-        Blandt andet opnår man at få tjekket sine tænder og mund af en
-        professionel.
+        Men hvad mange ikke er så klar over er for at kunne bevare sunde tænder
+        er et regelmæssigt besøg hos tandlægen lige så vigtig.
       </p>
 
-      <p className={Index.p}>
-        En anden fordel er at man kan få gode tips om hvordan man selv kan holde
-        tænderne rene og sunde.
+      <p>
+        Det er individuelt hvor ofte man skal gå til tandlægen. <br></br> <br />{" "}
+        Hvor hyppigt man har brug for et tandeftersyn fastlægges ud fra om man
+        er i grøn, gul eller rød kategori.{" "}
+        <a
+          target="_blank"
+          href="https://www.tandlaegeforeningen.dk/patienter/er-du-groen-gul-eller-roed/fakta-om-roed-gul-groen-ordningen-hos-tandlaegen/"
+          style={{ textDecoration: "none" }}
+        >
+          Læs mere her
+        </a>
       </p>
 
-      <div className={Image.tandImplant}>
-        <h1 className={Image.h1}>Tandimplant</h1>
+      <br />
+
+      <div className={Image.plastFyldning}>
+        <h1 className={Image.h1}>Plastfyldning</h1>
       </div>
 
       <br />
-      <div className={Image.rodBehandling}>
-        <h1 className={Image.h1}>Rodbehandling</h1>
+
+      <div className={Image.tandRetning}>
+        <h1 className={Image.h1}>Tandretning</h1>
       </div>
 
-      <br />
       <br />
 
       <h1>Få et Tandeftersyn!</h1>
@@ -139,4 +146,4 @@ const index = () => {
   )
 }
 
-export default index
+export default sidsteTandeftersyn

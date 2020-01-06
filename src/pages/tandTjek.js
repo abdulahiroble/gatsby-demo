@@ -1,50 +1,44 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { Link } from "gatsby"
-import Image from "../components/images.module.scss"
 import Index from "../components/index.module.scss"
+import Image from "../components/images.module.scss"
 
-const index = () => {
+const tandTjek = () => {
   return (
     <Layout>
-      <div className={Image.displayBanner}>
-        <h1 className={Image.h1}>Tandeftersyn</h1>
+      <div className={Image.displayThirdBanner}>
+        <h1 className={Image.h1Second}>Hvor ofte bør ens tænder tjekkes</h1>
         <Link to="/kontakt">
           <button className={Image.myButton} style={{ marginLeft: "37%" }}>
             BLIV KONTAKTET
           </button>
         </Link>
       </div>
+
       <br />
 
       <p className={Index.p}>
-        Regelmæssige tandeftersyn har flere fordele i følge{" "}
-        <a
-          target="_blank"
-          href="https://www.tandlaegeforeningen.dk/om-tandlaegeforeningen/det-mener-tf/maerkesager/regelmaessig-tandpleje/"
-          style={{ textDecoration: "none" }}
-        >
-          Tandlægeforeningen.
-        </a>{" "}
+        Det anbefales at du som minimum får lavet et tandeftersyn en gang om
+        året. Men hvad der helt præcist er dit behov skal du have talt med din
+        tandlæge om ved et tandeftersyn
       </p>
 
       <p>
-        Blandt andet opnår man at få tjekket sine tænder og mund af en
-        professionel.
+        Derudover er det individuelt hvor ofte man skal gå til tandlægen. Hvor
+        hyppigt man har brug for et tandeftersyn fastlægges ud fra om man er i
+        grøn, gul eller rød kategori.{" "}
+        <a
+          target="_blank"
+          href="https://www.tandlaegeforeningen.dk/patienter/er-du-groen-gul-eller-roed/fakta-om-roed-gul-groen-ordningen-hos-tandlaegen/"
+          style={{ textDecoration: "none" }}
+        >
+          Læs mere her
+        </a>
       </p>
 
-      <p className={Index.p}>
-        En anden fordel er at man kan få gode tips om hvordan man selv kan holde
-        tænderne rene og sunde.
-      </p>
-
-      <div className={Image.tandImplant}>
-        <h1 className={Image.h1}>Tandimplant</h1>
-      </div>
-
-      <br />
-      <div className={Image.rodBehandling}>
-        <h1 className={Image.h1}>Rodbehandling</h1>
+      <div className={Image.dreamSmile}>
+        <h1 className={Image.h1Third}>Få Dit Drømme Smil</h1>
       </div>
 
       <br />
@@ -139,4 +133,4 @@ const index = () => {
   )
 }
 
-export default index
+export default tandTjek
