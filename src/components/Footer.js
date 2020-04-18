@@ -25,12 +25,6 @@ const Footer = () => {
             Vilkår og Betingelser
           </Link>
         </li>
-
-        <li>
-          <Link to="/kontakt" className={footerStyles.navItem}>
-            Kontakt os
-          </Link>
-        </li>
       </ul>
       <h3 style={{ textAlign: "center" }}>&copy; tandlaegeeftersyn.dk</h3>
 

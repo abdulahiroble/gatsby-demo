@@ -19,7 +19,7 @@ module.exports = {
       },
     },
     "gatsby-plugin-sass",
-    "gatsby-plugin-sitemap",
+    `gatsby-plugin-advanced-sitemap`,
     "gatsby-plugin-react-helmet",
   ],
 }

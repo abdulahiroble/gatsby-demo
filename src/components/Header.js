@@ -32,16 +32,6 @@ const Header = () => {
               Hvor Ofte Bør Man Tjekkes?
             </Link>
           </li>
-          <li>
-            <Link
-              to="/kontakt"
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
-              /* className={Image.myButton} */
-            >
-              BLIV KONTAKTET
-            </Link>
-          </li>
         </ul>
       </nav>
     </header>
